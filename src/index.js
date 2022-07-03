@@ -3,26 +3,33 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
+
 // import Clock from './components/clock/Clock';
 // import CommentList from './components/comment/CommentList'
 // import NotificationList from './components/notification/NotificationList';
 // import Accomodate from './components/counter/Accomodate';
 // import ConfirmButton from './components/confirm/ConfirmButton';
-import LandingPage from './components/toolbar/LandingPage';
+// import LandingPage from './components/toolbar/LandingPage';
+// import AttendanceBook from './components/attendancebook/AttendanceBook';
+// import SignUp from './components/signup/SignUp';
+import Calculator from './components/temperatureInput/Calculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-  root.render(
-    <React.StrictMode>
-      {/* <App /> */}
-      {/* <Clock /> */}
-      {/* <CommentList /> */}
-      {/* <NotificationList /> */}
-      {/* <Accomodate /> */}
-      {/* <ConfirmButton /> */}
-      <LandingPage />
-    </React.StrictMode>
-  );
+root.render(
+  <React.StrictMode>
+    {/* <App /> */}
+    {/* <Clock /> */}
+    {/* <CommentList /> */}
+    {/* <NotificationList /> */}
+    {/* <Accomodate /> */}
+    {/* <ConfirmButton /> */}
+    {/* <LandingPage /> */}
+    {/* <AttendanceBook /> */}
+    {/* <SignUp /> */}
+    <Calculator />
+  </React.StrictMode>
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

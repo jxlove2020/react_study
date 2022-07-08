@@ -12,7 +12,9 @@ import reportWebVitals from './reportWebVitals';
 // import LandingPage from './components/toolbar/LandingPage';
 // import AttendanceBook from './components/attendancebook/AttendanceBook';
 // import SignUp from './components/signup/SignUp';
-import Calculator from './components/temperatureInput/Calculator';
+// import Calculator from './components/temperatureInput/Calculator';
+// import ProfileCard from './components/card/ProfileCard';
+import DarkOrLight from './components/themecontext/DarkOrLight';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -27,7 +29,9 @@ root.render(
     {/* <LandingPage /> */}
     {/* <AttendanceBook /> */}
     {/* <SignUp /> */}
-    <Calculator />
+    {/* <Calculator /> */}
+    {/* <ProfileCard /> */}
+    <DarkOrLight />
   </React.StrictMode>
 );
 
